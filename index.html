@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play-music player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="audio-player">
+      <div class="timeline">
+        <div class="progress"></div>
+      </div>
+      <div class="controls">
+        <div class="play-container">
+          <div class="toggle-play playpro">
+          </div>
+        </div>
+        <div class="time-play">
+          <div class="current">0:00</div>
+          <div class="divider">/</div>
+          <div class="length"></div>
+        </div>
+        <div class="name-play"></div>
+        <div class="volume-container">
+          <div class="volume-button source">
+            <div class="volume icono-volumeMedium"></div>
+          </div>
+
+          <div class="volume-slider">
+            <div class="volume-percentage"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <div class="time"></div>
+    <div class="date"></div>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="setting"></div>
+    <div class="footer__quotes">
+      <button class="change-quote"></button>
+      <div class="footer__quote">
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+
+    </div>
+    <div class="footer__empty"></div>
+
+
+  </footer>
+  <div class="pop">
+    <form action="#" class="pop__form">
+      <div class="switcher">
+        <label for="language" class="switcher__text">english/russian</label>
+        <input type="checkbox" name="language" class="switcher__input" id="language" checked>
+        <label for="language" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="timebox" class="switcher__text">time</label>
+        <input type="checkbox" name="timebox" class="switcher__input" id="timebox" checked>
+        <label for="timebox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="datebox" class="switcher__text">date</label>
+        <input type="checkbox" name="datebox" class="switcher__input" id="datebox" checked>
+        <label for="datebox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="greetingbox" class="switcher__text">greeting</label>
+        <input type="checkbox" name="greetingbox" class="switcher__input" id="greetingbox" checked>
+        <label for="greetingbox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="quotebox" class="switcher__text">quote</label>
+        <input type="checkbox" name="quotebox" class="switcher__input" id="quotebox" checked>
+        <label for="quotebox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="weatherbox" class="switcher__text">weather</label>
+        <input type="checkbox" name="weatherbox" class="switcher__input" id="weatherbox" checked>
+        <label for="weatherbox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="audiobox" class="switcher__text">audio</label>
+        <input type="checkbox" name="audiobox" class="switcher__input" id="audiobox" checked>
+        <label for="audiobox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="unsplashbox" class="switcher__text">Unsplash</label>
+        <input type="checkbox" name="unsplashbox" class="switcher__input" id="unsplashbox">
+        <label for="unsplashbox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="flickrbox" class="switcher__text">Flickr</label>
+        <input type="checkbox" name="flickrbox" class="switcher__input" id="flickrbox">
+        <label for="flickrbox" class="switcher__label"></label>
+      </div>
+      <div class="switcher">
+        <label for="githubbox" class="switcher__text">github</label>
+        <input type="checkbox" name="githubbox" class="switcher__input" id="githubbox" checked>
+        <label for="githubbox" class="switcher__label"></label>
+      </div>
+    </form>
+  </div>
+
+
+  <script type="module" src="js/script.js"></script>
+  <!-- <script type="module" src="js/playList.js"></script>  -->
+</body>
+
+</html>
